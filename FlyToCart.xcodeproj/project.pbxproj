@@ -12,6 +12,7 @@
 		308DBC671F5C26BC005B49A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308DBC651F5C26BC005B49A7 /* Main.storyboard */; };
 		308DBC691F5C26BD005B49A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308DBC681F5C26BD005B49A7 /* Assets.xcassets */; };
 		308DBC6C1F5C26BD005B49A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308DBC6A1F5C26BD005B49A7 /* LaunchScreen.storyboard */; };
+		308DBC741F5C2BD7005B49A7 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308DBC731F5C2BD7005B49A7 /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		308DBC681F5C26BD005B49A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308DBC6B1F5C26BD005B49A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		308DBC6D1F5C26BD005B49A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308DBC731F5C2BD7005B49A7 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				308DBC681F5C26BD005B49A7 /* Assets.xcassets */,
 				308DBC6A1F5C26BD005B49A7 /* LaunchScreen.storyboard */,
 				308DBC6D1F5C26BD005B49A7 /* Info.plist */,
+				308DBC731F5C2BD7005B49A7 /* ProductCell.swift */,
 			);
 			path = FlyToCart;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				308DBC741F5C2BD7005B49A7 /* ProductCell.swift in Sources */,
 				308DBC641F5C26BC005B49A7 /* ViewController.swift in Sources */,
 				308DBC621F5C26BC005B49A7 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +265,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyToCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.FlyToCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FlyToCart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.FlyToCart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
